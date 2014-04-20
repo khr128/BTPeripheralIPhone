@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE27868719043CD000DED246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE27868619043CD000DED246 /* Foundation.framework */; };
+		AE27868919043CD000DED246 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE27868819043CD000DED246 /* CoreGraphics.framework */; };
+		AE27868B19043CD000DED246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE27868A19043CD000DED246 /* UIKit.framework */; };
+		AE27869119043CD000DED246 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE27868F19043CD000DED246 /* InfoPlist.strings */; };
+		AE27869319043CD000DED246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE27869219043CD000DED246 /* main.m */; };
+		AE27869719043CD000DED246 /* BTPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE27869619043CD000DED246 /* BTPAppDelegate.m */; };
+		AE27869A19043CD000DED246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE27869819043CD000DED246 /* Main.storyboard */; };
+		AE27869D19043CD000DED246 /* BTPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE27869C19043CD000DED246 /* BTPViewController.m */; };
+		AE27869F19043CD000DED246 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE27869E19043CD000DED246 /* Images.xcassets */; };
+		AE2786A619043CD000DED246 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2786A519043CD000DED246 /* XCTest.framework */; };
+		AE2786A719043CD000DED246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE27868619043CD000DED246 /* Foundation.framework */; };
+		AE2786A819043CD000DED246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE27868A19043CD000DED246 /* UIKit.framework */; };
+		AE2786B019043CD000DED246 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE2786AE19043CD000DED246 /* InfoPlist.strings */; };
+		AE2786B219043CD000DED246 /* BTPeripheralPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2786B119043CD000DED246 /* BTPeripheralPhoneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE2786A919043CD000DED246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE27867B19043CD000DED246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE27868219043CD000DED246;
+			remoteInfo = BTPeripheralPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE27868319043CD000DED246 /* BTPeripheralPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTPeripheralPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE27868619043CD000DED246 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE27868819043CD000DED246 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE27868A19043CD000DED246 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE27868E19043CD000DED246 /* BTPeripheralPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTPeripheralPhone-Info.plist"; sourceTree = "<group>"; };
+		AE27869019043CD000DED246 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE27869219043CD000DED246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE27869419043CD000DED246 /* BTPeripheralPhone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTPeripheralPhone-Prefix.pch"; sourceTree = "<group>"; };
+		AE27869519043CD000DED246 /* BTPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTPAppDelegate.h; sourceTree = "<group>"; };
+		AE27869619043CD000DED246 /* BTPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTPAppDelegate.m; sourceTree = "<group>"; };
+		AE27869919043CD000DED246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE27869B19043CD000DED246 /* BTPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTPViewController.h; sourceTree = "<group>"; };
+		AE27869C19043CD000DED246 /* BTPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTPViewController.m; sourceTree = "<group>"; };
+		AE27869E19043CD000DED246 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE2786A419043CD000DED246 /* BTPeripheralPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTPeripheralPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2786A519043CD000DED246 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AE2786AD19043CD000DED246 /* BTPeripheralPhoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTPeripheralPhoneTests-Info.plist"; sourceTree = "<group>"; };
+		AE2786AF19043CD000DED246 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE2786B119043CD000DED246 /* BTPeripheralPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTPeripheralPhoneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE27868019043CD000DED246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE27868919043CD000DED246 /* CoreGraphics.framework in Frameworks */,
+				AE27868B19043CD000DED246 /* UIKit.framework in Frameworks */,
+				AE27868719043CD000DED246 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2786A119043CD000DED246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2786A619043CD000DED246 /* XCTest.framework in Frameworks */,
+				AE2786A819043CD000DED246 /* UIKit.framework in Frameworks */,
+				AE2786A719043CD000DED246 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE27867A19043CD000DED246 = {
+			isa = PBXGroup;
+			children = (
+				AE27868C19043CD000DED246 /* BTPeripheralPhone */,
+				AE2786AB19043CD000DED246 /* BTPeripheralPhoneTests */,
+				AE27868519043CD000DED246 /* Frameworks */,
+				AE27868419043CD000DED246 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE27868419043CD000DED246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE27868319043CD000DED246 /* BTPeripheralPhone.app */,
+				AE2786A419043CD000DED246 /* BTPeripheralPhoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE27868519043CD000DED246 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE27868619043CD000DED246 /* Foundation.framework */,
+				AE27868819043CD000DED246 /* CoreGraphics.framework */,
+				AE27868A19043CD000DED246 /* UIKit.framework */,
+				AE2786A519043CD000DED246 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE27868C19043CD000DED246 /* BTPeripheralPhone */ = {
+			isa = PBXGroup;
+			children = (
+				AE27869519043CD000DED246 /* BTPAppDelegate.h */,
+				AE27869619043CD000DED246 /* BTPAppDelegate.m */,
+				AE27869819043CD000DED246 /* Main.storyboard */,
+				AE27869B19043CD000DED246 /* BTPViewController.h */,
+				AE27869C19043CD000DED246 /* BTPViewController.m */,
+				AE27869E19043CD000DED246 /* Images.xcassets */,
+				AE27868D19043CD000DED246 /* Supporting Files */,
+			);
+			path = BTPeripheralPhone;
+			sourceTree = "<group>";
+		};
+		AE27868D19043CD000DED246 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE27868E19043CD000DED246 /* BTPeripheralPhone-Info.plist */,
+				AE27868F19043CD000DED246 /* InfoPlist.strings */,
+				AE27869219043CD000DED246 /* main.m */,
+				AE27869419043CD000DED246 /* BTPeripheralPhone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE2786AB19043CD000DED246 /* BTPeripheralPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE2786B119043CD000DED246 /* BTPeripheralPhoneTests.m */,
+				AE2786AC19043CD000DED246 /* Supporting Files */,
+			);
+			path = BTPeripheralPhoneTests;
+			sourceTree = "<group>";
+		};
+		AE2786AC19043CD000DED246 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE2786AD19043CD000DED246 /* BTPeripheralPhoneTests-Info.plist */,
+				AE2786AE19043CD000DED246 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE27868219043CD000DED246 /* BTPeripheralPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE2786B519043CD000DED246 /* Build configuration list for PBXNativeTarget "BTPeripheralPhone" */;
+			buildPhases = (
+				AE27867F19043CD000DED246 /* Sources */,
+				AE27868019043CD000DED246 /* Frameworks */,
+				AE27868119043CD000DED246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTPeripheralPhone;
+			productName = BTPeripheralPhone;
+			productReference = AE27868319043CD000DED246 /* BTPeripheralPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE2786A319043CD000DED246 /* BTPeripheralPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE2786B819043CD000DED246 /* Build configuration list for PBXNativeTarget "BTPeripheralPhoneTests" */;
+			buildPhases = (
+				AE2786A019043CD000DED246 /* Sources */,
+				AE2786A119043CD000DED246 /* Frameworks */,
+				AE2786A219043CD000DED246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE2786AA19043CD000DED246 /* PBXTargetDependency */,
+			);
+			name = BTPeripheralPhoneTests;
+			productName = BTPeripheralPhoneTests;
+			productReference = AE2786A419043CD000DED246 /* BTPeripheralPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE27867B19043CD000DED246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = khr;
+				TargetAttributes = {
+					AE2786A319043CD000DED246 = {
+						TestTargetID = AE27868219043CD000DED246;
+					};
+				};
+			};
+			buildConfigurationList = AE27867E19043CD000DED246 /* Build configuration list for PBXProject "BTPeripheralPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE27867A19043CD000DED246;
+			productRefGroup = AE27868419043CD000DED246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE27868219043CD000DED246 /* BTPeripheralPhone */,
+				AE2786A319043CD000DED246 /* BTPeripheralPhoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE27868119043CD000DED246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE27869F19043CD000DED246 /* Images.xcassets in Resources */,
+				AE27869119043CD000DED246 /* InfoPlist.strings in Resources */,
+				AE27869A19043CD000DED246 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2786A219043CD000DED246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2786B019043CD000DED246 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE27867F19043CD000DED246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE27869319043CD000DED246 /* main.m in Sources */,
+				AE27869D19043CD000DED246 /* BTPViewController.m in Sources */,
+				AE27869719043CD000DED246 /* BTPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2786A019043CD000DED246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2786B219043CD000DED246 /* BTPeripheralPhoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE2786AA19043CD000DED246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE27868219043CD000DED246 /* BTPeripheralPhone */;
+			targetProxy = AE2786A919043CD000DED246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE27868F19043CD000DED246 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE27869019043CD000DED246 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE27869819043CD000DED246 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE27869919043CD000DED246 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE2786AE19043CD000DED246 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE2786AF19043CD000DED246 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE2786B319043CD000DED246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE2786B419043CD000DED246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE2786B619043CD000DED246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTPeripheralPhone/BTPeripheralPhone-Prefix.pch";
+				INFOPLIST_FILE = "BTPeripheralPhone/BTPeripheralPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE2786B719043CD000DED246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTPeripheralPhone/BTPeripheralPhone-Prefix.pch";
+				INFOPLIST_FILE = "BTPeripheralPhone/BTPeripheralPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AE2786B919043CD000DED246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTPeripheralPhone.app/BTPeripheralPhone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTPeripheralPhone/BTPeripheralPhone-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BTPeripheralPhoneTests/BTPeripheralPhoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AE2786BA19043CD000DED246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTPeripheralPhone.app/BTPeripheralPhone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTPeripheralPhone/BTPeripheralPhone-Prefix.pch";
+				INFOPLIST_FILE = "BTPeripheralPhoneTests/BTPeripheralPhoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE27867E19043CD000DED246 /* Build configuration list for PBXProject "BTPeripheralPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE2786B319043CD000DED246 /* Debug */,
+				AE2786B419043CD000DED246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE2786B519043CD000DED246 /* Build configuration list for PBXNativeTarget "BTPeripheralPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE2786B619043CD000DED246 /* Debug */,
+				AE2786B719043CD000DED246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE2786B819043CD000DED246 /* Build configuration list for PBXNativeTarget "BTPeripheralPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE2786B919043CD000DED246 /* Debug */,
+				AE2786BA19043CD000DED246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE27867B19043CD000DED246 /* Project object */;
+}
